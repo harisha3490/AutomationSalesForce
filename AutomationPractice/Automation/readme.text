@@ -1,0 +1,7 @@
+1. I have used the PageObject framework
+2. I'm taking all properties from ComponentReferenceTestData.properties file -->Src/main/resource/propertyfile
+3. Page Objects and functions are seen under src/main/jav pageObject.package-->ComponentReferencePagePO.Java
+4. TestBase.java is the base class in which all test scripts and other utilities will be extended. It also contains a Before and After suite
+5. All utilities required for projects are implemented in utilities package -->utilities.java
+6. I have written the automation test scripts under the src/test/java ComponentReference package ---> TestComponentReferencePage.Java file.
+7. Also automated the script by reading the data Using Json Object.-->Src/main/resource/Json-->testdata.json
